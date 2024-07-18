@@ -44,4 +44,4 @@ Toward this end, we are currently developing a state-of-the-art, three-dimension
 ![About me picture](/assets/img/tabs/SDL_profile.jpeg)
 
 **Publications:** [ADS link](https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-4475-3181&sort=date%20desc%2C%20bibcode%20desc&p_=0)
-**Publications:** [ADS link](http://solardynamicslab.khu.ac.kr/~magara)
+**Publications:** [ADS link](http://web.khu.ac.kr/~magara/)
