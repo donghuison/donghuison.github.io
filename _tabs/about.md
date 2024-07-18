@@ -7,7 +7,7 @@ order: 4
 <!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 > {: .prompt-tip } -->
 
-![About me picture](/assets/img/tabs/about-me.jpg)
+![About me picture](/assets/img/tabs/about-me.JPG)
 
 # _About Me_
 
