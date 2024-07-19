@@ -38,7 +38,7 @@ B.S., Astronomy and Space Science, 2021, Kyunghee University
   </h2>
 </div> -->
 
-[My Advisor: Prof. Tetsuya Magara](http://web.khu.ac.kr/~magara/index.html)
+[**My Advisor: Prof. Tetsuya Magara**](http://web.khu.ac.kr/~magara/index.html)
 
 We aim to clarify the dynamical nature of the Sun represented by various kinds of active phenomena observed on it, such as the solar cycle, solar flare, and coronal mass ejection. We investigate origins, basic properties, and physical mechanisms of these phenomena by combining observational data analysis and theoretical modeling based on computer simulation.
 
