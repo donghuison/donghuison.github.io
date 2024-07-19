@@ -11,13 +11,12 @@
   /* Common color */
   --text-color: rgb(175, 176, 177);
   --text-muted-color: #868686;
-  --text-muted-highlight-color: #aeaeae;
+  --text-muted-hightlight-color: #aeaeae;
   --heading-color: #cccccc;
   --label-color: #a7a7a7;
   --blockquote-border-color: rgb(66, 66, 66);
   --blockquote-text-color: #868686;
-  // --link-color: rgb(138, 180, 248);
-  --link-color: rgb(157, 175, 255);
+  --link-color: rgb(138, 180, 248);
   --link-underline-color: rgb(82, 108, 150);
   --button-bg: #1e1e1e;
   --btn-border-color: #2e2f31;
@@ -103,6 +102,10 @@
 
   .light {
     display: none;
+  }
+
+  hr {
+    border-color: var(--main-border-color);
   }
 
   /* categories */

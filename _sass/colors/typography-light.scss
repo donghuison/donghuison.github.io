@@ -11,7 +11,7 @@
   /* Common color */
   --text-color: #34343c;
   --text-muted-color: #757575;
-  --text-muted-highlight-color: inherit;
+  --text-muted-hightlight-color: inherit;
   --heading-color: #2a2a2a;
   --label-color: #585858;
   --blockquote-border-color: #eeeeee;
@@ -49,17 +49,6 @@
   --sidebar-btn-color: #8e8e8e;
   --avatar-border-color: white;
 
-  // --site-title-color: rgb(75, 0, 189);
-  // --site-subtitle-color: #00fff2;
-  // --sidebar-bg: #000000;
-  // --sidebar-border-color: #ff8383;
-  // --sidebar-muted-color: #db7b06;
-  // --sidebar-active-color: #079454;
-  // --sidebar-hover-bg: rgba(19, 135, 229, 0.64);
-  // --sidebar-btn-bg: rgb(135, 19, 151);
-  // --sidebar-btn-color: #0b34ca;
-  // --avatar-border-color: rgb(209, 35, 35);
-  
   /* Topbar */
   --topbar-bg: rgb(255, 255, 255, 0.7);
   --topbar-text-color: rgb(78, 78, 78);
@@ -74,8 +63,7 @@
 
   /* Posts */
   --toc-highlight: #0550ae;
-  --btn-share-color: gray;
-  --btn-share-hover-color: #0d6efd;
+  --btn-share-hover-color: var(--link-color);
   --card-bg: white;
   --card-hovor-bg: #e2e2e2;
   --card-shadow: rgb(104, 104, 104, 0.05) 0 2px 6px 0,
