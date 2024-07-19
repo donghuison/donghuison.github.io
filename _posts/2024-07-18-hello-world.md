@@ -7,4 +7,4 @@ tags: [Hello World]
 
 # Hello world
 
-Hello world this is my personla blog.
+Hello world this is my personal blog.
