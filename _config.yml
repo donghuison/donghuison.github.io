@@ -16,10 +16,10 @@ timezone: Asia/Seoul
 
 title: Donghui Son # the main title
 
-tagline: PhD Student in Solar Physics  
-         Kyunghee University   # it will display as the sub-title
+tagline: PhD Student in Solar Physics
+  Kyunghee University # it will display as the sub-title
 
-description: >-                        # used by seo meta and the atom feed
+description: >- # used by seo meta and the atom feed
   My personal website and research blog. I use this to provide updates on my
   research and general work.
 
@@ -48,7 +48,7 @@ social:
 
 # Site Verification Settings
 webmaster_verifications:
-  google: # fill in your Google verification code
+  google: <meta name="google-site-verification" content="H-tSV3sgesB4LM3fstz1DgK4sdjmsuCxZxngDm2cU38" /> # fill in your Google verification code
   bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
