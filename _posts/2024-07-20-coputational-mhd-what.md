@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Coputational MHD (CMHD) - WHAT?
+title: Coputational MHD
 date: 2024-07-20 22:09 +0900
 category: [Computational MHD]
 tags: [Computational MHD - WHAT?]
