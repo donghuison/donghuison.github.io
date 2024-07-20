@@ -154,6 +154,7 @@ jekyll-archives:
 
 # compose 설정으로 쉽게 포스트 가능
 jekyll_compose:
+  auto_open: true
   default_front_matter:
     posts:
       description:
