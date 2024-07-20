@@ -2,7 +2,7 @@
 layout: post
 title: Computational MHD-WHAT?
 date: 2024-07-18 00:00:00 +0800
-categories: [Computational MHD]
+categories: [Computational MHD, Basic Mathematical Description]
 tags: [CMHD-WHAT]
 pin: false
 math: true
@@ -38,6 +38,32 @@ The core of CMHD relies on a set of fundamental equations describing the behavio
 
 These equations form the foundation for numerical simulations in CMHD, describing the evolution of density, velocity, magnetic field, pressure, and energy in magnetized plasmas.
 
+## Conservative Form of MHD Equations
+
+The conservative form of the MHD equations is particularly useful for numerical simulations because it emphasizes the conservation of mass, momentum, energy, and magnetic flux. The equations can be written as:
+
+- **Mass conservation:**  
+  $$\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0$$
+
+- **Momentum conservation:**  
+  $$\frac{\partial (\rho \mathbf{v})}{\partial t} + \nabla \cdot \left[\rho \mathbf{v} \mathbf{v} + \left(p + \frac{B^2}{2\mu_0}\right)\mathbf{I} - \frac{\mathbf{B}\mathbf{B}}{\mu_0}\right] = 0$$
+
+- **Energy conservation:**  
+  $$\frac{\partial E}{\partial t} + \nabla \cdot \left[\left(E + p + \frac{B^2}{2\mu_0}\right)\mathbf{v} - \frac{(\mathbf{v} \cdot \mathbf{B})\mathbf{B}}{\mu_0}\right] = 0$$
+
+- **Induction equation (magnetic flux conservation):**  
+  $$\frac{\partial \mathbf{B}}{\partial t} + \nabla \cdot (\mathbf{v} \mathbf{B} - \mathbf{B} \mathbf{v}) = 0$$
+
+where:
+
+- \( E \) is the total energy density,
+- \( p \) is the gas pressure,
+- \( \mathbf{B} \) is the magnetic field,
+- \( \mathbf{v} \) is the velocity field,
+- \( \rho \) is the mass density,
+- \( \mathbf{I} \) is the identity matrix,
+- \( \mu_0 \) is the magnetic permeability of free space.
+
 ## Numerical Methods and Techniques
 
 ### Spatial Discretization
@@ -47,32 +73,6 @@ CMHD simulations often use spatial discretization techniques such as the finite 
 ### Temporal Discretization
 
 Temporal discretization techniques like explicit and implicit time integration methods are employed to ensure stability and accuracy in the simulations. Explicit methods are straightforward and computationally efficient but can be limited by stability constraints. Implicit methods, while more complex, allow for larger time steps and greater stability, especially in stiff problems.
-
-### Linear Solvers and Preconditioners
-
-Solving the linear systems arising from discretized equations requires robust linear solvers and preconditioners. Commonly used solvers include Conjugate Gradient (CG), Bi-Conjugate Gradient Stabilized (BiCGstab), and Generalized Minimal Residual (GMRES) methods. Preconditioners enhance the convergence rate of these solvers, making the simulations more efficient.
-
-## Applications of CMHD
-
-### Astrophysics
-
-CMHD enables the modeling of stellar atmospheres, accretion disks, and galactic magnetic fields, providing deeper insights into astrophysical phenomena.
-
-### Fusion Research
-
-Fusion research heavily relies on CMHD to simulate plasma behavior in tokamaks and stellarators, aiding in developing sustainable fusion energy.
-
-### Engineering
-
-Engineering applications include designing MHD propulsion systems for seagoing vessels, optimizing liquid metal cooling for nuclear reactors, and improving electromagnetic casting processes.
-
-### Geophysics
-
-CMHD plays a crucial role in geophysics for studying Earth's magnetic field and contributes to advancements in geophysical research.
-
-### Materials Science
-
-In materials science, CMHD enhances crystal growth techniques and has various other applications.
 
 ## Challenges and Future Directions
 
