@@ -46,29 +46,13 @@ The conservative form of ideal MHD equations is particularly useful for numerica
   $$\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0$$
 
 - **Momentum conservation:**  
-  $$\frac{\partial (\rho \mathbf{v})}{\partial t} + \nabla \cdot \left[\rho \mathbf{v} \mathbf{v} + \left(p + \frac{B^2}{2\mu_0}\right)\mathbf{I} - \frac{\mathbf{B}\mathbf{B}}{\mu_0}\right] = 0$$
-
-  Here:
-
-  - $$\rho \mathbf{v} \mathbf{v}$$ represents the tensor product \(\mathbf{v} \otimes \mathbf{v}\).
-  - $$\left(p + \frac{B^2}{2\mu_0}\right)\mathbf{I}$$ is the isotropic pressure term.
-  - $$\frac{\mathbf{B}\mathbf{B}}{\mu_0}$$ represents the tensor product \(\mathbf{B} \otimes \mathbf{B}\).
+  $$\frac{\partial (\rho \mathbf{v})}{\partial t} + \nabla \cdot \left[\rho \mathbf{v} \otimes \mathbf{v} + \left(p + \frac{B^2}{2\mu_0}\right)\mathbf{I} - \frac{\mathbf{B} \otimes \mathbf{B}}{\mu_0}\right] = 0$$
 
 - **Energy conservation:**  
   $$\frac{\partial E}{\partial t} + \nabla \cdot \left[\left(E + p + \frac{B^2}{2\mu_0}\right)\mathbf{v} - \frac{(\mathbf{v} \cdot \mathbf{B})\mathbf{B}}{\mu_0}\right] = 0$$
 
-  Here:
-
-  - $$E$$ is the total energy density, which includes kinetic, internal, and magnetic energy.
-  - $$\left(E + p + \frac{B^2}{2\mu_0}\right)\mathbf{v}$$ represents the combined energy flux.
-  - $$\frac{(\mathbf{v} \cdot \mathbf{B})\mathbf{B}}{\mu_0}$$ represents the magnetic tension component.
-
 - **Induction equation (magnetic flux conservation):**  
-  $$\frac{\partial \mathbf{B}}{\partial t} + \nabla \cdot (\mathbf{v} \mathbf{B} - \mathbf{B} \mathbf{v}) = 0$$
-
-  Here:
-
-  - $$\mathbf{v} \mathbf{B}$$ and $$\mathbf{B} \mathbf{v}$$ are tensor products $$\mathbf{v} \otimes \mathbf{B}$$ and $$\mathbf{B} \otimes \mathbf{v}$$, respectively.
+  $$\frac{\partial \mathbf{B}}{\partial t} + \nabla \cdot (\mathbf{v} \otimes \mathbf{B} - \mathbf{B} \otimes \mathbf{v}) = 0$$
 
 <!-- - **Mass conservation:**
   $$\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0$$
@@ -80,7 +64,7 @@ The conservative form of ideal MHD equations is particularly useful for numerica
   $$\frac{\partial E}{\partial t} + \nabla \cdot \left[\left(E + p + \frac{B^2}{2\mu_0}\right)\mathbf{v} - \frac{(\mathbf{v} \cdot \mathbf{B})\mathbf{B}}{\mu_0}\right] = 0$$
 
 - **Induction equation (magnetic flux conservation):**
-  $$\frac{\partial \mathbf{B}}{\partial t} + \nabla \cdot (\mathbf{v} \mathbf{B} - \mathbf{B} \mathbf{v}) = 0$$
+  $$\frac{\partial \mathbf{B}}{\partial t} + \nabla \cdot (\mathbf{v} \mathbf{B} - \mathbf{B} \mathbf{v}) = 0$$ -->
 
 where:
 
@@ -90,7 +74,7 @@ where:
 - $$\mathbf{v}$$ is the velocity field,
 - $$\rho$$ is the mass density,
 - $$\mathbf{I}$$ is the identity matrix,
-- $$\mu_0$$ is the magnetic permeability of free space. -->
+- $$\mu_0$$ is the magnetic permeability of free space.
 
 ## Numerical Methods and Techniques
 
