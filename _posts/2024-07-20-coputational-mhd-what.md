@@ -4,6 +4,9 @@ title: Computational MHD-WHAT?
 date: 2024-07-18 00:00:00 +0800
 categories: [Computational MHD]
 tags: [CMHD-WHAT]
+pin: false
+math: true
+mermaid: true
 ---
 
 # What is Computational MHD?
@@ -18,11 +21,20 @@ At its core, CMHD employs numerical techniques to solve the coupled equations of
 
 The core of CMHD is built upon a set of fundamental equations that describe the behavior of magnetized plasmas. These include:
 
-- Continuity equation: $$\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0$$
-- Momentum equation: $$\rho \frac{D\mathbf{v}}{Dt} = -\nabla p + \mathbf{J} \times \mathbf{B} + \rho \mathbf{g} + \nabla \cdot \mathbf{\tau}$$
-- Energy equation: $$\rho \frac{D}{Dt}\left(\frac{e}{\rho}\right) = -p\nabla \cdot \mathbf{v} + \eta \mathbf{J}^2 - \nabla \cdot \mathbf{q} + Q_{visc}$$
-- Induction equation: $$\frac{\partial \mathbf{B}}{\partial t} = \nabla \times (\mathbf{v} \times \mathbf{B}) - \nabla \times (\eta \nabla \times \mathbf{B})$$
-- Solenoidal constraint: $$\nabla \cdot \mathbf{B} = 0$$
+- **Continuity equation:**  
+  \[\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0\]
+
+- **Momentum equation:**  
+  \[\rho \frac{D\mathbf{v}}{Dt} = -\nabla p + \mathbf{J} \times \mathbf{B} + \rho \mathbf{g} + \nabla \cdot \mathbf{\tau}\]
+
+- **Energy equation:**  
+  \[\rho \frac{D}{Dt}\left(\frac{e}{\rho}\right) = -p\nabla \cdot \mathbf{v} + \eta \mathbf{J}^2 - \nabla \cdot \mathbf{q} + Q\_{visc}\]
+
+- **Induction equation:**  
+  \[\frac{\partial \mathbf{B}}{\partial t} = \nabla \times (\mathbf{v} \times \mathbf{B}) - \nabla \times (\eta \nabla \times \mathbf{B})\]
+
+- **Solenoidal constraint:**  
+  \[\nabla \cdot \mathbf{B} = 0\]
 
 These equations form the foundation for numerical simulations in CMHD, describing the evolution of density, velocity, magnetic field, pressure, and energy in magnetized plasmas.
 
