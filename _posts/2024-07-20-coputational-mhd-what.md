@@ -1,12 +1,8 @@
 ---
 title: Coputational MHD (CMHD) - WHAT?
 date: 2024-07-19 22:09 +0900
-description:
 category: [Computational MHD]
 tags: [Computational MHD - WHAT?]
-pin: false
-math: true
-mermaid: true
 ---
 
 Computational Magnetohydrodynamics (CMHD) is a rapidly evolving field that combines principles from fluid dynamics, electromagnetism, and numerical methods to simulate and analyze the behavior of electrically conducting fluids in magnetic fields. As reported by leading researchers in the field, CMHD has become an essential tool for studying complex plasma phenomena in astrophysics, fusion research, and engineering applications.
