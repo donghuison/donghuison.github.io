@@ -56,13 +56,13 @@ The conservative form of the MHD equations is particularly useful for numerical 
 
 where:
 
-- \( E \) is the total energy density,
-- \( p \) is the gas pressure,
-- \( \mathbf{B} \) is the magnetic field,
-- \( \mathbf{v} \) is the velocity field,
-- \( \rho \) is the mass density,
-- \( \mathbf{I} \) is the identity matrix,
-- \( \mu_0 \) is the magnetic permeability of free space.
+- $$\( E \)$$ is the total energy density,
+- $$\( p \)$$ is the gas pressure,
+- $$\( \mathbf{B} \)$$ is the magnetic field,
+- $$\( \mathbf{v} \)$$ is the velocity field,
+- $$\( \rho \)$$ is the mass density,
+- $$\( \mathbf{I} \)$$ is the identity matrix,
+- $$\( \mu_0 \)$$ is the magnetic permeability of free space.
 
 ## Numerical Methods and Techniques
 
