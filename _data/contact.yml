@@ -18,6 +18,10 @@
 - type: researchgate
   icon: "fab fa-researchgate"
   url: "https://www.researchgate.net/profile/Son-Donghui"
+
+- type: ORCID
+  icon: "fa-brands fa-orcid"
+  url: "https://orcid.org/0009-0008-4201-4159"
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
