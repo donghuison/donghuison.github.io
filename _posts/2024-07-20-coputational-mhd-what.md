@@ -73,8 +73,4 @@ Computational Magnetohydrodynamics is a vital field that bridges the gap between
 - [Pencil Code](https://pencil-code.nordita.org/)
 - [RAMSES](https://www.ics.uzh.ch/~teyssier/Site/RAMSES.html)
 
-For further details, visit [Donghui Sun's Blog](https://donghuisun.com/).
-
 ---
-
-Would you like me to continue with the next three sections, or do you have any additional modifications or information to provide before proceeding?
