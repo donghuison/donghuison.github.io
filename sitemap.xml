@@ -1,127 +1,182 @@
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-<loc>http://localhost:4000/posts/hello-world/</loc>
-<lastmod>2024-07-21T02:07:23+09:00</lastmod>
+  <loc>https://donghuisun.com/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/coputational-mhd-what/</loc>
-<lastmod>2024-07-21T02:07:23+09:00</lastmod>
+  <loc>https://donghuisun.com/about/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/finite-volume-method/</loc>
-<lastmod>2024-07-21T02:07:23+09:00</lastmod>
+  <loc>https://donghuisun.com/categories/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/hlld/</loc>
-<lastmod>2024-07-21T00:32:16+09:00</lastmod>
+  <loc>https://donghuisun.com/contact/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/riemann-problem/</loc>
-<lastmod>2024-07-21T00:53:23+09:00</lastmod>
+  <loc>https://donghuisun.com/publications/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/riemann-solver/</loc>
-<lastmod>2024-07-21T02:07:23+09:00</lastmod>
+  <loc>https://donghuisun.com/links/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/div-cleaning-dedner/</loc>
-<lastmod>2024-07-20T01:00:00+09:00</lastmod>
+  <loc>https://donghuisun.com/archives/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/div-constraint-evans/</loc>
-<lastmod>2024-07-20T01:00:00+09:00</lastmod>
+  <loc>https://donghuisun.com/tags/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/entropy-consistent/</loc>
-<lastmod>2024-07-20T01:00:00+09:00</lastmod>
+  <loc>https://donghuisun.com/posts/hlle/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/hll/</loc>
-<lastmod>2024-07-20T01:00:00+09:00</lastmod>
+  <loc>https://donghuisun.com/posts/hllc/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/hllc/</loc>
-<lastmod>2024-07-20T01:00:00+09:00</lastmod>
+  <loc>https://donghuisun.com/posts/hll/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/hlle/</loc>
-<lastmod>2024-07-20T01:00:00+09:00</lastmod>
+  <loc>https://donghuisun.com/posts/entropy-consistent/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/about/</loc>
-<lastmod>2024-07-21T03:03:17+09:00</lastmod>
+  <loc>https://donghuisun.com/posts/div-constraint-evans/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/categories/</loc>
-<lastmod>2024-07-21T03:03:17+09:00</lastmod>
+  <loc>https://donghuisun.com/posts/div-cleaning-dedner/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/contact/</loc>
-<lastmod>2024-07-21T03:03:17+09:00</lastmod>
+  <loc>https://donghuisun.com/posts/riemann-solver/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/publications/</loc>
-<lastmod>2024-07-21T03:03:17+09:00</lastmod>
+  <loc>https://donghuisun.com/posts/riemann-problem/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/links/</loc>
-<lastmod>2024-07-21T03:03:17+09:00</lastmod>
+  <loc>https://donghuisun.com/posts/hlld/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/archives/</loc>
-<lastmod>2024-07-21T03:03:17+09:00</lastmod>
+  <loc>https://donghuisun.com/posts/finite-volume-method/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/</loc>
-<lastmod>2024-07-21T03:03:17+09:00</lastmod>
+  <loc>https://donghuisun.com/page2/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+  <loc>https://donghuisun.com/tags/cmhd-what/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/scientific-computing/</loc>
+  <loc>https://donghuisun.com/tags/cmhd-how/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/cmhd-what/</loc>
+  <loc>https://donghuisun.com/tags/fvm-what/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/fvm-what/</loc>
+  <loc>https://donghuisun.com/tags/scientific-computing/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/cmhd-how/</loc>
+  <loc>https://donghuisun.com/categories/computational-mhd/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/categories/scientific-computing/</loc>
+  <loc>https://donghuisun.com/categories/basic-mathematical-description/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/categories/lecture/</loc>
+  <loc>https://donghuisun.com/categories/divergence-free-techniques/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/categories/computational-mhd/</loc>
+  <loc>https://donghuisun.com/categories/entropy-consistent-techniques/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/categories/basic-mathematical-description/</loc>
+  <loc>https://donghuisun.com/categories/riemann-solver/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/categories/numerical-techniques/</loc>
+  <loc>https://donghuisun.com/categories/numerical-techniques/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/categories/how-to-solve-pdes/</loc>
+  <loc>https://donghuisun.com/categories/how-to-solve-pdes/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/categories/riemann-solver/</loc>
+  <loc>https://donghuisun.com/categories/scientific-computing/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/categories/divergence-free-techniques/</loc>
+  <loc>https://donghuisun.com/categories/lecture/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/categories/entropy-consistent-techniques/</loc>
+  <loc>https://donghuisun.com/posts/coputational-mhd-what/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/page2/</loc>
+  <loc>https://donghuisun.com/posts/hello-world/</loc>
+  <lastmod>2024-07-20T18:07:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
-<url>
-<loc>http://localhost:4000/google178427e7d5ca6ce0.html</loc>
-<lastmod>2024-07-21T03:00:37+09:00</lastmod>
-</url>
+
+
 </urlset>
