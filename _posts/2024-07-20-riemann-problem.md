@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "[CMHD-WHAT?] Riemann Problem"
 date: 2024-07-20 21:35 +0900
 category: [Computational MHD]
