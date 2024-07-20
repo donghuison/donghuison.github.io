@@ -63,14 +63,6 @@ Approximate Riemann Solvers are faster and less computationally intensive, makin
 - **Pros**: Simple and forms the basis for many higher-order methods.
 - **Cons**: Limited to first-order accuracy unless combined with higher-order reconstruction techniques.
 
-#### 4. Approximate Riemann Solvers based on Flux Splitting
-
-- **Examples**:
-  - **Steger-Warming Flux Splitting**: Splits the flux based on wave propagation directions.
-  - **Van Leer Flux Vector Splitting**: Similar to Steger-Warming but provides a more accurate representation of the flow field.
-- **Pros**: Efficient and relatively simple to implement.
-- **Cons**: May not capture all wave interactions accurately.
-
 ## Applications of Approximate Riemann Solvers
 
 Approximate Riemann Solvers are widely used in various applications due to their balance of speed and accuracy:
