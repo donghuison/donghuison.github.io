@@ -7,9 +7,17 @@
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+# - type: rss
+#   icon: "fas fa-rss"
+#   noblank: true
+
+- type: GoogleScholar
+  icon: "fab fa-google-scholar"
+  url: "https://scholar.google.com/citations?hl=ko&user=gtVr3c4AAAAJ"
+
+- type: researchgate
+  icon: "fab fa-researchgate"
+  url: "https://www.researchgate.net/profile/Son-Donghui"
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
