@@ -2,7 +2,7 @@
 layout: post
 title: Coputational MHD
 date: 2024-07-20 22:09 +0900
-category: [Computational MHD]
+categories: [Computational MHD]
 tags: [Computational MHD - WHAT?]
 ---
 
