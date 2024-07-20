@@ -56,7 +56,7 @@ The conservative form of the MHD equations is particularly useful for numerical 
 
 where:
 
-- $$\( E \)$$ is the total energy density,
+- $$E$$ is the total energy density,
 - $$\( p \)$$ is the gas pressure,
 - $$\( \mathbf{B} \)$$ is the magnetic field,
 - $$\( \mathbf{v} \)$$ is the velocity field,
