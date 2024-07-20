@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Coputational MHD
-date: 2024-07-20 22:09 +0900
+date: 2024-07-20 00:00:00 +0800
 categories: [Computational MHD]
 tags: [Computational MHD - WHAT?]
 ---
